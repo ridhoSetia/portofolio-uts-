@@ -3,7 +3,7 @@ window.addEventListener("load", () => {
     gsap.to(".anim-hero", { opacity: 1, y: 0, duration: 0.8, stagger: 0.1, ease: "power3.out" });
 
     const typed = new Typed('#typed-output', {
-        strings: ['Hai, Aku Ridho.', 'Seorang FullStack Developer.'],
+        strings: ['Hai, Aku Ridho.'],
         typeSpeed: 50,
         backSpeed: 25,
         backDelay: 1500,
